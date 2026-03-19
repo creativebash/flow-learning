@@ -45,10 +45,21 @@ Every piece of content must align with one or more of these pillars:
 *   **Protocol Engineering:** P2P Networking (libp2p), Distributed Storage (IPFS), Compute (Akash/Gensyn).
 
 ### 2. The Learning Hierarchy
-We do not use "Beginner" or "Advanced." We use professional competency levels:
-1.  **Level 1: Foundations:** Concept-heavy, understanding "the what."
-2.  **Level 2: Practitioner:** Implementation-heavy, "the how."
-3.  **Level 3: Contributor:** OSS-focused, deep-diving into partner codebases for PR readiness.
+Our curriculum uses precise track-tier-section-lesson organization for clarity.
+
+- `01-foundations/`
+  - sections directly at root: `01-concepts`, `02-practice`, `03-tooling`
+  - lessons like `01-learning-hierarchy.md`, `02-effective-notes.md`, `03-collaboration-workflows.md`
+
+- `02-blockchain/`, `03-ai-ml/`, `04-protocol-eng/`
+  - tier folders: `beginner`, `intermediate`, `advanced`
+  - each tier has domain sections (e.g., blockchain advanced has `01-protocol-engineering`, `02-scalability`)
+  - each section contains lesson markdown files named by topic (e.g., `01-protocol-architecture.md`)
+
+- This structure is intended to map directly to competency progression:
+  - **beginner**: concepts and fundamentals
+  - **intermediate**: applied building and safety
+  - **advanced**: architecture, deployment, ecosystem leadership
 
 ### 3. Voice & Tone
 *   **Audience:** Mid-level Software Engineers.
