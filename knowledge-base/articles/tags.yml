@@ -1,0 +1,31 @@
+# blog/tags.yml
+
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: Official updates and news regarding the Flow Education Initiative.
+
+curriculum:
+  label: Curriculum
+  permalink: /curriculum
+  description: Updates, guides, and insights into our structured learning paths and course materials.
+
+open-source:
+  label: Open Source
+  permalink: /open-source
+  description: Articles focused on contributing to the global open-source ecosystem and best practices.
+
+community:
+  label: Community
+  permalink: /community
+  description: Stories, highlights, and spotlights on African contributors and our local chapters.
+
+mentorship:
+  label: Mentorship
+  permalink: /mentorship
+  description: Guidance and resources for both mentors and mentees within the initiative.
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step technical guides to supplement the core curriculum.
