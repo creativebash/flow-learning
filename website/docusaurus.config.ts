@@ -7,12 +7,12 @@ const config: Config = {
   tagline: 'Powering the next generation of African contributors',
   favicon: 'img/favicon.ico',
 
-  // SET YOUR URLS HERE
+  // GitHub Pages URL setup
   url: 'https://creativebash.github.io', 
-  baseUrl: '/', // Change to '/flow-learning/' if deploying to GitHub Pages project site
-
+  baseUrl: '/flow-learning/', 
   organizationName: 'creativebash', 
   projectName: 'flow-learning', 
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -27,14 +27,12 @@ const config: Config = {
       'classic',
       {
         docs: {
-          // This points to /curriculum in your repo root
           path: '../curriculum', 
           routeBasePath: 'curriculum',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/creativebash/flow-learning/tree/main/',
         },
         blog: {
-          // This points to /blog in your repo root
           path: '../knowledge-base/articles',
           routeBasePath: 'blog',
           showReadingTime: true,
@@ -76,23 +74,14 @@ const config: Config = {
         {
           title: 'Learning',
           items: [
-            {
-              label: 'Curriculum',
-              to: '/curriculum',
-            },
+            {label: 'Curriculum', to: '/curriculum'},
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Articles',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/creativebash/flow-learning',
-            },
+            {label: 'Articles', to: '/blog'},
+            {label: 'GitHub', href: 'https://github.com/creativebash/flow-learning'},
           ],
         },
       ],
