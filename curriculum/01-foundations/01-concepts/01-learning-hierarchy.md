@@ -1,4 +1,4 @@
-# 01 Learning Hierarchy
+# Learning Hierarchy
 
 
 ## Learning Objectives
